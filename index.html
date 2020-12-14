@@ -60,7 +60,12 @@
     <header class="jumbotron my-4">
       <h1 >Raimunda's House Cleaning </h1>
       <p class="lead">Successful at providing consistent and high quality cleaning services. <br> Accommodates customers needs at all times. Dedicated to exceptional <br> standards of performance and quality.</p>
-      <a href="#" class="btn btn-primary btn-lg">Call for an Estimate!</a>
+      <a onclick="myFunction()"class="btn btn-primary btn-lg">Call for an Estimate!</a>
+      <div class="popup" onclick="myFunction()">
+        <span class="popuptext" id="myPopup">Call us Today: <br> (857)-888-3878</span>
+      </div>
+
+      
     </header>
 
     <!-- Page Features -->
@@ -78,6 +83,8 @@
           </div>
         </div>
       </div>
+
+      
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
@@ -100,7 +107,7 @@
             <p class="card-text">We are here for you and your place of business! Day cares, offices spaces & more.   </p>
           </div>
           <div class="card-footer">
-            <a href="#commercial" class="btn btn-primary">Find Out More!</a>
+            <a href="#residentialP" class="btn btn-primary">Find Out More!</a>
           </div>
         </div>
       </div>
@@ -161,7 +168,7 @@
     Our family owned and operated business has been established for over 30 years, providing a large variety of services in the Greater Boston area. 
     <br>
     <br>
-    <b> Standard Cleaning:</b> This service is best suited for small commercial spaces. We recommend scheduling weekly or bi-weekly cleanings. This service includes vaccuming offices, common areas,cleaning restrooms and tidying up.
+    raquel you need to tell me what to write here. it needs to be a short paraprah, prob 3-4 lines.
   </p>
 </div>
 <br> 
@@ -180,6 +187,12 @@
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="./app.js"></script>
+  <script>
+    function myFunction() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+    }
+    </script>
 </body>
 
 </html>
