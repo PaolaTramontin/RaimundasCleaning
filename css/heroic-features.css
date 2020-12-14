@@ -1,0 +1,101 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/template/heroic-features)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+  /* background-color: rgb(20, 93, 177); */
+  
+}
+
+header{
+  background-image:url('https://as1.ftcdn.net/jpg/02/55/83/54/240_F_255835492_YBdivnm2jnwEANPCyCkzxH3bmNzwgep5.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  display:block;
+  /* border:3px solid rgb(32, 70, 194); */
+  margin: auto;
+}
+
+
+h1{
+  /* font-family: 'Architects Daughter', cursive; */
+  font-family: 'Poiret One', cursive;
+  /* font-family: 'Shadows Into Light', cursive; */
+  font-size:5vw;
+}
+
+
+#services{
+  text-align: center;
+}
+
+#residential{
+  text-align: center;
+  color: white;
+  background-color: rgb(41, 124, 233);
+  margin-left:50vw;
+  margin-right:10vw;
+  font-family: 'Roboto';
+}
+
+
+#residentialPic{
+  height:25vw;
+  margin-left:6vw;
+}
+
+
+#residentialP{
+  padding-left:45vw;
+  /* border:1px solid red; */
+}
+
+
+#commercial{
+  text-align: center;
+  color: white;
+  background-color: rgb(41, 124, 233);
+  margin-left:50vw;
+  margin-right:10vw;
+  font-family: 'Roboto';
+}
+
+
+#commercialPic{
+  height:25vw;
+  margin-left:6vw;
+}
+
+
+#commercialP{
+  padding-left:45vw;
+  /* border:1px solid red; */
+}
+
+
+
+#about{
+  text-align: center;
+  color: white;
+  background-color: rgb(41, 124, 233);
+  margin-left:50vw;
+  margin-right:10vw;
+  font-family: 'Roboto';
+}
+
+
+#aboutPic{
+  height:25vw;
+  margin-left:6vw;
+}
+
+
+#aboutP{
+  padding-left:45vw;
+  /* border:1px solid red; */
+}
+
